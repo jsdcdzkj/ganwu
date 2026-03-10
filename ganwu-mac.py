@@ -25,7 +25,7 @@ def send_wechat_message(user_name, message):
         # 打开或切换到企业微信
         pyautogui.press('enter')
         time.sleep(2)
-        pyautogui.hotkey('command', 'y')
+        pyautogui.hotkey('command', 'p')
         time.sleep(2)  # 等待企业微信激活
 
         # 聚焦搜索框 (Command + Option + F)
